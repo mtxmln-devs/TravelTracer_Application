@@ -217,30 +217,27 @@ TravelTracer_App/
    - Share updates with friends and family
 
 ### 🗺️ Core Features Usage
-1. **Interactive Map**:
-   - View your travel history on the world map
-   - Tap markers to see photos and memories
-   - Use search to find new destinations
-   - Switch between different map styles
-
 2. **Trip Planning**:
    - Create detailed itineraries with day-by-day activities
    - Set reminders for flights, bookings, and activities
    - Invite travel companions to collaborate
    - Access offline itineraries without internet
 
-3. **Photo & Memory Management**:
-   - Automatically organize photos by location and date
-   - Add captions and tags to your travel photos
-   - Create shareable travel albums
+2. **Memory Management**:
+   - Add captions and tags to your experiences
    - Export memories as beautiful travel books
+
+3. **Travel Statistics**:
+   - View total distances traveled and countries visited
+   - Track travel goals and achievements **:
+
+4. **User Management**
+   - Create, Modify, and Monitor, Remove User Information
 
 ### 📊 Analytics & Insights
 1. **Travel Statistics**:
    - View total distances traveled and countries visited
-   - Monitor travel expenses and budget adherence
    - Track travel goals and achievements
-   - Compare travel patterns over time
 
 2. **Memory Timeline**:
    - Browse your travel history chronologically
@@ -284,14 +281,9 @@ We welcome contributions to make TravelTracer even better for travelers worldwid
    - Include testing instructions for reviewers
 
 ### 🎯 Areas for Contribution
-- **New Features**: Add trip sharing, group travel planning, or AR navigation
 - **UI/UX**: Improve user interface and user experience design
 - **Performance**: Optimize app performance and reduce battery usage
 - **Accessibility**: Enhance accessibility features for all users
-- **Localization**: Add support for additional languages and regions
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 **Key Points:**
 - ✅ Free for personal and commercial use
@@ -315,26 +307,11 @@ If you encounter any issues or have questions about TravelTracer:
 - 📧 **Email Support**: Contact hello@mtxmln-devs.com for urgent issues
 
 ### 🌍 Travel Community
-- 🗺️ **Travel Tips**: Share and discover travel advice
-- 📸 **Photo Sharing**: Showcase your best travel photography
 - 🎒 **Trip Planning**: Get help planning your next adventure
 - 🤝 **Travel Buddies**: Connect with fellow travelers
 
 ## 🔄 Updates
 Stay informed about the latest features and improvements:
-
-### 📅 Recent Releases
-- **v2.3.0** (Current): Enhanced offline functionality and improved map performance
-- **v2.2.0**: Added social sharing and travel buddy features
-- **v2.1.0**: Implemented advanced trip planning and itinerary management
-- **v2.0.0**: Major UI redesign with improved user experience
-- **v1.5.0**: Added expense tracking and budget management features
-
-### 🛣️ Roadmap
-- **Q3 2025**: AI-powered travel recommendations and smart itinerary suggestions
-- **Q4 2025**: Augmented reality navigation and location discovery
-- **Q1 2026**: Travel booking integration and loyalty program partnerships
-- **Q2 2026**: Advanced group travel features and collaborative planning
 
 ### 📢 Stay Updated
 - ⭐ **Star the Repository** for GitHub notifications
@@ -347,7 +324,6 @@ TravelTracer is designed to enhance your travel experience by:
 - **Organized Planning**: Never miss important details with comprehensive trip planning
 - **Memory Preservation**: Automatically create beautiful travel memories and timelines
 - **Discovery**: Find hidden gems and local experiences at your destinations
-- **Safety**: Offline maps and location sharing for safer travels
 - **Sustainability**: Track and reduce your travel environmental impact
 
 ## ⚠️ **Important Notes**
