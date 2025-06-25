@@ -35,7 +35,6 @@ TravelTracer is a feature-rich mobile application that transforms how you plan, 
 - **React Native**: Cross-platform mobile development framework
 - **JavaScript (ES6+)**: Core application logic and user interface
 - **TypeScript**: Type-safe development for better code quality
-- **Redux**: State management for complex application data
 - **React Navigation**: Smooth navigation between screens and tabs
 
 ### Data & Storage
@@ -169,31 +168,42 @@ TravelTracer is a feature-rich mobile application that transforms how you plan, 
 ## 📁 Project Structure
 ```
 TravelTracer_App/
-├── src/                      # Source code
-│   ├── components/           # Reusable UI components
-│   ├── screens/             # App screens and navigation
-│   ├── services/            # API calls and external services
-│   ├── utils/               # Helper functions and utilities
-│   └── assets/              # Images, fonts, and static assets
+├── First Tab/               # Main application entry point
+│   ├─ LoginForm.js          # Login tab
+|
+├── screens/                 # App screens and navigation
+│   ├─ Setting.js            # Settings tab
+│   ├── Home.js              # Overview/Home tab
+│   ├── Trip_Planner.js      # Trip Planner tab
+│   ├── Journal.js           # Journal tab
+│   ├── AddDestinations.js   # Add destinations tab
+│   ├── AddLocations.js      # Add locations tab
+│   ├── CreateTrips.js       # Create Trips tab
+│   ├── SetReminders.js      # Set Reminders tab
+|
+├── Main application/        # App screens and navigation
+│   └── App.jsx              # Main application
+|
+|── Important Files/         # App Instruction Manual
+│   └── app.json             # Instructions of the app
+│   └── babel.config.js      # Translators rulebook of app
+│   └── package-lock.json    # Dependency Lock File
+│   └── package.json         # Dependency Manifest file 
+|
+│── assets/              # Images, fonts, and static assets
+│   └── adaptive-icon.png              
+│   └── airplane-icon.png     
+│   └── bgGradient.png             
+│   └── favicon.png           
+│   └── icon.png            
+│   └── map.jpg
+│   └── mapPic.jpg             
+│   └── openBook.png           
+│   └── settingsImage.png
+│   └── socialImage.png              
+│   └── splash.png                        
+|
 │
-├── navigation/               # App navigation configuration
-│   ├── AppNavigator.js      # Main navigation structure
-│   ├── TabNavigator.js      # Bottom tab navigation
-│   └── StackNavigator.js    # Stack-based screen navigation
-│
-├── store/                    # State management
-│   ├── actions/             # Redux actions
-│   ├── reducers/            # Redux reducers
-│   └── store.js             # Store configuration
-│
-├── config/                   # Configuration files
-│   ├── api.js               # API endpoints and configuration
-│   ├── constants.js         # App constants and settings
-│   └── permissions.js       # Device permissions handling
-│
-├── android/                  # Android-specific files
-├── ios/                      # iOS-specific files
-├── __tests__/                # Test files
 └── README.md                 # Project documentation
 ```
 
@@ -216,8 +226,11 @@ TravelTracer_App/
    - Check in at points of interest
    - Share updates with friends and family
 
+4. **User Management**
+   - Create, Modify, and Monitor, Remove User Information
+
 ### 🗺️ Core Features Usage
-2. **Trip Planning**:
+1. **Trip Planning**:
    - Create detailed itineraries with day-by-day activities
    - Set reminders for flights, bookings, and activities
    - Invite travel companions to collaborate
@@ -231,7 +244,7 @@ TravelTracer_App/
    - View total distances traveled and countries visited
    - Track travel goals and achievements **:
 
-4. **User Management**
+4. **User Information Management**
    - Create, Modify, and Monitor, Remove User Information
 
 ### 📊 Analytics & Insights
