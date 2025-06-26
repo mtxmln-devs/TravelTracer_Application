@@ -1,4 +1,4 @@
-# TravelTracer_App
+# TravelTracer_Application
 ![image alt](https://github.com/mtxmln-devs/TravelTracer_App/blob/e6445f6e772dd2f895a042405d430b21766a989f/SCREENSHOTS/HOME_TAB.jpg)
 
 Track your adventures, plan your journeys, and discover amazing destinations.
@@ -7,7 +7,7 @@ Track your adventures, plan your journeys, and discover amazing destinations.
 A comprehensive mobile travel application designed to help users seamlessly plan, document, and share their adventures, This application offers a centralized platform for every stage of your journey, from initial planning to reliving cherished memories.
 
 ## 📖 Overview
-TravelTracer is a feature-rich mobile application that transforms how you plan, track, and remember your travels. Whether you're a solo backpacker, family vacationer, or business traveler, this app provides all the tools you need to make your journeys memorable and well-organized. Built with modern mobile technologies, it offers various capabilities composed of storage of AsyncStorage and SQLite, it offers notes tracking, and seamless synchronization across devices.
+TravelTracer is a mobile application that transforms how you plan, track, and remember your travels. Whether you're a solo backpacker, family vacationer, or business traveler, this app provides all the tools you need to make your journeys memorable and well-organized. Built with modern mobile technologies, it offers various capabilities composed of storage of AsyncStorage and SQLite, it offers data tracking, and seamless synchronization across devices.
 
 ## ✨ Features
 ### 🗺️ Core Travel Features
@@ -86,7 +86,7 @@ TravelTracer is a feature-rich mobile application that transforms how you plan, 
 
 2. **Clone the Repository**
    ```bash
-   git clone https://github.com/mtxmln-devs/TravelTracer_App.git
+   git clone https://github.com/mtxmln-devs/TravelTracer_Application.git
    cd TravelTracer_App
    ```
 
@@ -103,10 +103,12 @@ TravelTracer is a feature-rich mobile application that transforms how you plan, 
    ```
 
 5. **Run on Device**
+   ```bash
    - Install Expo Go app on your mobile device
    - Scan QR code from terminal or browser
    - App will load directly on your device
-
+   ```
+   
 #### Method 2: React Native CLI (Advanced)
 1. **Setup React Native Environment**
    ```bash
@@ -114,7 +116,7 @@ TravelTracer is a feature-rich mobile application that transforms how you plan, 
    npm install -g react-native-cli
    
    # Clone repository
-   git clone https://github.com/mtxmln-devs/TravelTracer_App.git
+   git clone https://github.com/mtxmln-devs/TravelTracer_Application.git
    cd TravelTracer_App
    ```
 
@@ -137,26 +139,18 @@ TravelTracer is a feature-rich mobile application that transforms how you plan, 
 
 ### 🔧 Development Setup
 1. **Fork the Repository**
+   ```bash
    - Click "Fork" on the GitHub repository page
    - Clone your forked repository locally
-
+   ```
+   
 2. **Create Development Environment**
    ```bash
    git checkout -b feature/your-feature-name
    npm start
    ```
 
-3. **Configure API Keys**
-   ```bash
-   # Copy environment file
-   cp .env.example .env
-   
-   # Add your API keys
-   GOOGLE_MAPS_API_KEY=your_maps_api_key
-   FIREBASE_API_KEY=your_firebase_key
-   ```
-
-4. **Run Tests**
+3. **Run Tests**
    ```bash
    # Unit tests
    npm test
@@ -167,7 +161,7 @@ TravelTracer is a feature-rich mobile application that transforms how you plan, 
 
 ## 📁 Project Structure
 ```
-TravelTracer_App/
+TravelTracer_Application/
 ├── First Tab/               # Main application entry point
 │   ├─ LoginForm.js          # Login tab
 |
