@@ -184,7 +184,7 @@ TravelTracer_Application/
 │   └── package-lock.json    # Dependency Lock File
 │   └── package.json         # Dependency Manifest file 
 |
-│── assets/              # Images, fonts, and static assets
+│── assets/                  # Images, fonts, and static assets
 │   └── adaptive-icon.png              
 │   └── airplane-icon.png     
 │   └── bgGradient.png             
