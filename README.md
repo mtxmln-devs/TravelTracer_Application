@@ -4,8 +4,13 @@
 Track your adventures, plan your journeys, and discover amazing destinations.
 
 # 🌍 TravelTracer - Your Ultimate Travel Companion
+<div align="center">
+
+
+
 A comprehensive mobile travel application designed to help users seamlessly plan, document, and share their adventures, This application offers a centralized platform for every stage of your journey, from initial planning to reliving cherished memories.
 
+</div>
 ## 📖 Overview
 TravelTracer is a mobile application that transforms how you plan, track, and remember your travels. Whether you're a solo backpacker, family vacationer, or business traveler, this app provides all the tools you need to make your journeys memorable and well-organized. Built with modern mobile technologies, it offers various capabilities composed of storage of AsyncStorage and SQLite, it offers data tracking, and seamless synchronization across devices.
 
