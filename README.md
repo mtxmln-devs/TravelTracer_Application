@@ -5,8 +5,13 @@ Track your adventures, plan your journeys, and discover amazing destinations.
 
 # 🌍 TravelTracer - Your Ultimate Travel Companion
 <div align="center">
-   
+   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+   <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+  <img src="https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white" />
+  <img src="https://img.shields.io/badge/JSS-F7DF1E?style=for-the-badge&logo=JSS&logoColor=white" />
+
 
 
 A comprehensive mobile travel application designed to help users seamlessly plan, document, and share their adventures, This application offers a centralized platform for every stage of your journey, from initial planning to reliving cherished memories.
